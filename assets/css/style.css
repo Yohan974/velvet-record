@@ -1,0 +1,88 @@
+html, body {
+  height: 100%;
+}
+body {
+  font-family: 'Varela Round', sans-serif;
+  background: url("../img/velvetRecords.jpg") no-repeat fixed center;
+  color: #8d97ad;
+  font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #33cabb;
+}
+h1 {
+  color: #f4f8fa;
+}
+.container-fluid {
+ height: 100%;
+}
+.welcome {
+ text-align: center;
+}
+.welcome h1{
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 4rem;
+}
+.icon-position {
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 200px;
+}
+a {
+  color: #888;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #3e4555;
+}
+.linking {
+  position: absolute;
+  right: 20px;
+}
+.footer {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+}
+.fa-plus-circle {
+  color: #33cabb;
+}
+.card-bg {
+  background-color: #f4f8fa;
+}
+.card-body {
+  padding: 20px;
+}
+.error {
+  font-size: small;
+  color: red;
+}
+.navbar {
+  background: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-bottom: 1px solid #dfe3e8;
+  border-radius: 0;
+}
+.navbar .navbar-brand {
+  padding-left: 0;
+  font-size: 20px;
+  padding-right: 50px;
+}
+.navbar .navbar-brand b {
+  font-weight: bold;
+  color: #33cabb;		
+}
+.btn-primary, .btn-primary:active {
+  color: #fff !important;
+  background: #33cabb;
+  padding-top: 8px;
+  padding-bottom: 6px;
+  border: none;
+}	
+.btn-primary:hover, .btn-primary:focus {		
+  color: #fff;
+  outline: none;
+  background: #31bfb1;
+}
